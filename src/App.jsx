@@ -8,7 +8,9 @@ import "./App.css";
 const App = () => {
   return (
     <Router>
-      <div className="min-h-screen bg-gray-50">
+      <div className="min-h-screen bg-gray-50 overflow-x-hidden">
+        {" "}
+        {/* Added overflow-x-hidden */}
         <Header />
         <Tabs />
         <Routes>

@@ -15,7 +15,7 @@ import {
 const Home = () => {
   return (
     <div className="p-4 sm:p-6 bg-gray-100 min-h-screen">
-      <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-4 gap-4 mb-4">
+      <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-4 gap-4 sm:gap-8 mb-4">
         <div className="bg-white p-4 rounded-lg shadow-sm flex items-center justify-between space-y-2">
           <div className="space-y-4">
             <h3 className="text-sm sm:text-base font-medium text-gray-700">
@@ -57,7 +57,7 @@ const Home = () => {
         </div>
       </div>
 
-      <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-4 gap-4 mb-4">
+      <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-4 gap-4 sm:gap-8 mb-4">
         <div className="bg-white p-4 rounded-lg shadow-sm flex items-center justify-between space-y-2">
           <div className="space-y-4">
             <h3 className="text-sm sm:text-base font-medium text-gray-700">
@@ -102,7 +102,7 @@ const Home = () => {
         </div>
       </div>
 
-      <div className="grid grid-cols-1 sm:grid-cols-2 gap-4">
+      <div className="grid grid-cols-1 sm:grid-cols-2 gap-4 sm:gap-8">
         <div className="bg-white p-4 rounded-lg shadow-sm flex flex-col h-100 justify-start">
           <div className="flex items-center space-x-2">
             <h3 className="text-lg font-medium text-gray-900">Income</h3>

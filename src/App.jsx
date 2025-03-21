@@ -10,7 +10,6 @@ const App = () => {
     <Router>
       <div className="min-h-screen bg-gray-50 overflow-x-hidden">
         {" "}
-        {/* Added overflow-x-hidden */}
         <Header />
         <Tabs />
         <Routes>
